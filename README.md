@@ -50,3 +50,38 @@ In Active Directory User and Computers, I created 2 Organizational Units named "
 I logged into the Client VM and joined it to the domain controller then verified that it was in the Active Directory Domain Users and Computers.
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/yHWuD30.png" height="80%" width="80%" alt="Generating users"/>
+  <img src="https://i.imgur.com/5HAKY2Q.png" height="80%" width="80%" alt="List of generated users"/>
+</p>
+<p>
+Generated user accounts to be used for additional testing such as account lockout and password resets. Ran a script through Powershell ISE that would generate random users then attempted a login with one of the generated users.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/o1tuY6h.png" height="80%" width="80%" alt="Group policy lockout"/>
+  <img src="https://i.imgur.com/Rtt7q8c.png" height="80%" width="80%" alt="User lockout"/>
+</p>
+<p>
+  Creating a group policy to lockout a user account after too many failed attempts. User then fails to log into account and receives a warning stating that they've been locked out of the account because of too many failed attempts.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/MAF0Tqt.png" height="80%" width="80%" alt="Unlocking user account"/>
+  <img src="https://i.imgur.com/KZwJLzM.png" height="80%" width="80%" alt="Resetting user password"/>
+</p>
+<p>
+  Inside the domain controllers, I unlocked the user account and was able to do reset the user's password.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/XdqQOaP.png" height="80%" width="80%" alt="Observing logs on client PC"/>
+</p>
+<p>
+Logged into the client PC to observe the logs and changes made to the user account, primarily the user's multiple failed login attempts.
+</p>
+<br />
