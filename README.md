@@ -30,7 +30,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://i.imgur.com/PeDzcdm.png" height="80%" width="80%" alt="Installing the Active Directory Domain Services"/>
 </p>
 <p>
-After creating the Domain Controller and setting up a client PC, I logged into the DC and installed the Active Directory Domain Services. After which, I promoted it as a DC by setting up a new forest.
+After creating the Domain Controller and setting up a client PC, log into the DC and install the Active Directory Domain Services. After which, promote it as a Domain Controller by setting up a new forest.
 </p>
 <br />
 
@@ -38,7 +38,7 @@ After creating the Domain Controller and setting up a client PC, I logged into t
 <img src="https://i.imgur.com/7fBzax6.png" height="80%" width="80%" alt="Creating Organizational Units"/>
 </p>
 <p>
-In Active Directory User and Computers, I created 2 Organizational Units named "_EMPLOYEES" and "_ADMINS". I then added a user to the Domain Admins, setting a username and password and adding the user to the domain's security group.
+In Active Directory User and Computers, created 2 Organizational Units named "_EMPLOYEES" and "_ADMINS". the user was then added to the Domain Admins, setting a username and password and adding the user to the domain's security group.
 </p>
 <br />
 
@@ -47,7 +47,7 @@ In Active Directory User and Computers, I created 2 Organizational Units named "
   <img src="https://i.imgur.com/x2pgDkx.png" height="80%" width="80%" alt="Verifying"/>
 </p>
 <p>
-I logged into the Client VM and joined it to the domain controller then verified that it was in the Active Directory Domain Users and Computers.
+Logging into the Client VM and joined it to the domain controller then verified that it was in the Active Directory Domain Users and Computers.
 </p>
 <br />
 
@@ -74,7 +74,7 @@ Generated user accounts to be used for additional testing such as account lockou
   <img src="https://i.imgur.com/KZwJLzM.png" height="80%" width="80%" alt="Resetting user password"/>
 </p>
 <p>
-  Inside the domain controllers, I unlocked the user account and was able to do reset the user's password.
+  Inside the domain controllers, the user account was unlocked and the user's password was reset.
 </p>
 <br />
 
